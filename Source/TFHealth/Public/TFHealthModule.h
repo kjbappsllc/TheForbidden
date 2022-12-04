@@ -3,4 +3,4 @@
 #include "CoreMinimal.h"
 #include "Logging/LogMacros.h"
 
-DECLARE_LOG_CATEGORY_EXTERN(LogHealth, Display, All);
+DECLARE_LOG_CATEGORY_EXTERN(LogTFHealth, Display, All);

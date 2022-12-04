@@ -1,8 +1,8 @@
 using UnrealBuildTool;
 
-public class Health : ModuleRules
+public class TFHealth : ModuleRules
 {
-    public Health(ReadOnlyTargetRules Target) : base(Target)
+    public TFHealth(ReadOnlyTargetRules Target) : base(Target)
     {
         PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 

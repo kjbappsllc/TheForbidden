@@ -4,17 +4,17 @@
 
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
-#include "HealthComponent.generated.h"
+#include "TFHealthComponent.generated.h"
 
 
-UCLASS( ClassGroup=(Health), meta=(BlueprintSpawnableComponent) )
-class HEALTH_API UHealthComponent : public UActorComponent
+UCLASS( ClassGroup=(TFHealth), meta=(BlueprintSpawnableComponent) )
+class TFHEALTH_API UTFHealthComponent : public UActorComponent
 {
 	GENERATED_BODY()
 
 public:	
 	// Sets default values for this component's properties
-	UHealthComponent();
+	UTFHealthComponent();
 
 protected:
 	// Called when the game starts
