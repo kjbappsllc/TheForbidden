@@ -13,7 +13,7 @@
 			]
 		},
 		{
-			"Name": "Health",
+			"Name": "TFHealth",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		},
