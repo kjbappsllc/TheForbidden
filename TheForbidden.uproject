@@ -18,7 +18,7 @@
 			"LoadingPhase": "Default"
 		},
 		{
-			"Name": "Inventory",
+			"Name": "TFInventory",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		}

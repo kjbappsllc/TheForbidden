@@ -10,7 +10,7 @@ public class TheForbidden : ModuleRules
 	
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
 
-		PrivateDependencyModuleNames.AddRange(new string[] { "TFHealth", "Inventory" });
+		PrivateDependencyModuleNames.AddRange(new string[] { "TFHealth", "TFInventory" });
 
 		// Uncomment if you are using Slate UI
 		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
