@@ -1,8 +1,8 @@
 using UnrealBuildTool;
 
-public class TFInventory : ModuleRules
+public class TFCore : ModuleRules
 {
-    public TFInventory(ReadOnlyTargetRules Target) : base(Target)
+    public TFCore(ReadOnlyTargetRules Target) : base(Target)
     {
         PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
