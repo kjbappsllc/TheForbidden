@@ -17,9 +17,9 @@ class TFCORE_API UTFItem : public UObject
 public:
 	UTFItem();
 
-	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Core Item")
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Core-Item")
 	class UTexture2D* Thumbnail;
 
-	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Core item", meta = (MultiLine = true))
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Core-Item", meta = (MultiLine = true))
 	FText Description;
 };

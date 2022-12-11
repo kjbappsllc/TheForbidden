@@ -5,4 +5,5 @@
 
 UTFItem::UTFItem()
 {
+	Description = FText::FromString("Item");
 }
