@@ -4,11 +4,11 @@
 
 #include "CoreMinimal.h"
 #include "UObject/Interface.h"
-#include "TFUsableItem.generated.h"
+#include "TFEquipable.generated.h"
 
 // This class does not need to be modified.
-UINTERFACE(Blueprintable)
-class UTFUsableItem : public UInterface
+UINTERFACE(MinimalAPI)
+class UTFEquipable : public UInterface
 {
 	GENERATED_BODY()
 };
@@ -16,11 +16,11 @@ class UTFUsableItem : public UInterface
 /**
  * 
  */
-class TFCORE_API ITFUsableItem
+class TFCORE_API ITFEquipable
 {
 	GENERATED_BODY()
 
 	// Add interface functions to this class. This is the class that will be inherited to implement this interface.
 public:
-	virtual void Use();
+	virtual void Equip() = 0;
 };
