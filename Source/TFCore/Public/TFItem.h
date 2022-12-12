@@ -9,7 +9,7 @@
 /**
  * 
  */
-UCLASS()
+UCLASS(Abstract)
 class TFCORE_API UTFItem : public UObject
 {
 	GENERATED_BODY()
